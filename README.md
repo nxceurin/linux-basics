@@ -37,10 +37,44 @@ or  chmod 1744 uploads
 
 15. chmod g-x,o-x backup.sh
 16. chmod g+x,o+x program.bin
-17. 
+17. chmod u+s executable.exe
 ```
 <br><br>
 ## Sed Drills
 ```
-1. sed 's/apple/orange' file-1.txt
+1.
+2. 
+3.
+4. sed 
+5.
+6.
+7.
+8.
+9.
+10.
 ```
+<br><br>
+## Basic searching of files
+```
+1. wc words
+2. sed '' words > words1
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+```
+<br><br>
+## Basic commands on file names
+```
+```
+<br><br>
+## Core Utils
+```
+```
+<br><br>
+## Linux Drills for Advanced Practice
