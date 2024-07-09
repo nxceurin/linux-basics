@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #CONTROL STRUCTURES
 #T1: print Hello only if x=10
 echo "Enter a number"
@@ -74,4 +76,23 @@ do
     fi
 done
 
+#T10:skip loop
+declare -a NUMBERS=(4 7 9 11 12 13 16 17 19 21 24 27 29 30 32)
+echo "Task 10 loop"
+for i in ${NUMBERS[@]}
+do
+    if [ $(($i%2)) != 0 ] 
+    then
+        continue
+    fi
+    echo $i
+done
+
+
 #T9: while/sleep loop
+echo "Starting loop"
+while [ true ]
+do
+    echo "Hi! Ctrl+C to escape loop"
+    sleep 5
+done
