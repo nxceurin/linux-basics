@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # VARIABLES AND DATA TYPES
 #TASK1: define variable w/ name and print
